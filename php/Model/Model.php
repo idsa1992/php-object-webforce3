@@ -12,7 +12,6 @@
 		protected $pdo;
 
 		function __construct($host = "", $user = "", $password = "", $database = "") {
-			require_once "config.php";
 			$this->host = DB_HOST; 
 			$this->user = DB_USER; 
 			$this->password = DB_PASSWORD; 

@@ -110,8 +110,8 @@
 		}
 	}
 
-	$test = new UsersModel();
-	$test->addOrder(1,1);
+	// $test = new UsersModel();
+	// $test->addOrder(1,1);
 	
 	/**
 		-- Phase de test --
